@@ -1,12 +1,12 @@
-# Supervised Machine Learning Homework - Predicting Credit Risk
+# Supervised Machine Learning - Predicting Credit Risk
 
-In this assignment, you will be building a machine learning model that attempts to predict whether a loan will be approved or not. 
+In this assignment, I will be building a machine learning model that attempts to predict whether a loan will be approved or not. 
 
 ## Background
 
-Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. This data will be used to 
+Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. 
 
-You will be using this data to create machine learning models to classify the risk level of given loans. Specifically, you will be comparing the Logistic Regression model and Random Forest Classifier.
+I will be using this data to create machine learning models to classify the risk level of given loans. Specifically, I will be comparing the Logistic Regression model and Random Forest Classifier.
 
 ## Instructions
 
@@ -20,11 +20,11 @@ Import the data using Pandas.
 
 ## Consider the models
 
-You will be creating and comparing two models on this data: a logistic regression, and a random forests classifier. Before you create, fit, and score the models, make a prediction as to which model you think will perform better. You do not need to be correct! Write down (in markdown cells in your Jupyter Notebook or in a separate document) your prediction, and provide justification for your educated guess.
+I have to create and compare two models on this data: a logistic regression, and a random forests classifier. Before I create, fit, and score the models, my prediction is logistic regression will perform better, because the dataset is all numeric, Random Forest Classifier performs better with more categorical data than numeric.
 
 ## Fit a LogisticRegression model and RandomForestClassifier model
 
-Create a LogisticRegression model, fit it to the data, and print the model's score. Do the same for a RandomForestClassifier. You may choose any starting hyperparameters you like. Which model performed better? How does that compare to your prediction? Write down your results and thoughts.
+After creating LogisticRegression and RandomForestClassifier model, fit it to the data, and print the model's score, both models perform well with this dataset with high testing score ( around 0.99 ) but the logisticRegression wins with slightly higher score (0.994 vs. 0.991).
 
 ## Rubric
 
