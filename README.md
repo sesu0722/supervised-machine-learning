@@ -1,12 +1,12 @@
 # Supervised Machine Learning - Predicting Credit Risk
 
-In this assignment, I will be building a machine learning model that attempts to predict whether a loan will be approved or not. 
+I built a machine learning model that attempts to predict whether a loan will be approved or not. 
 
 ## Background
 
 Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. 
 
-I will be using this data to create machine learning models to classify the risk level of given loans. Specifically, I will be comparing the Logistic Regression model and Random Forest Classifier.
+I use this data to create machine learning models to classify the risk level of given loans. Specifically, I will be comparing the Logistic Regression model and Random Forest Classifier.
 
 ## Instructions
 
@@ -26,9 +26,6 @@ I have to create and compare two models on this data: a logistic regression, and
 
 After creating LogisticRegression and RandomForestClassifier model, fit it to the data, and print the model's score, both models perform well with this dataset with high testing score ( around 0.99 ) but the logisticRegression wins with slightly higher score (0.994 vs. 0.991).
 
-## Rubric
-
-[Unit 19 - Supervised Machine Learning Homework Rubric](https://docs.google.com/document/d/1eZcQul7s2gy6h9flygyPdajSPUtqOQUuGL1XXcuX6p4/edit?usp=sharing)
 
 ### References
 
